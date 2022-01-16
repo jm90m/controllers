@@ -21,6 +21,7 @@
     "dist/"
   ],
   "scripts": {
+    "prepare": "yarn build",
     "setup": "yarn install && yarn allow-scripts",
     "prepublishOnly": "yarn build",
     "lint:eslint": "eslint . --cache --ext js,ts",
